@@ -1,0 +1,100 @@
+body,
+html{
+    height: 100%;
+}
+body{
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a.hover-underline:hover{
+    text-decoration: underline;
+}
+
+.vrLine{
+    border-left: 4px solid #198754;
+    margin: 2em auto;
+}
+
+.vrLine *{
+    margin-left: .5em;
+}
+
+.vrHr{
+    border-left: 1px solid gainsboro;
+    margin: auto 1em;
+}
+
+.vrHr * {
+    margin-left: 1em;
+}
+
+/* -----------------------------MEDIA QUERIES----------------------- */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #container {
+        max-width: 98%;
+        margin: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #container {
+        max-width: 96%;
+        margin: auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    #container {
+        max-width: 94%;
+        margin: auto;
+    }
+    #sideBar {
+        margin-left: -276px;
+    }
+    #main{
+        margin-left: auto;
+    }
+}
+@media(min-width:992px) {
+    #header {
+        display:none
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #container {
+        max-width: 92%;
+        margin: auto;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #container {
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+
+
+
+::-webkit-scrollbar {
+    width :  3px;
+    height : 3px;
+}
+::-webkit-scrollbar-track{
+    background : initial
+}
+::-webkit-scrollbar-thumb{
+    background-color: #1597bb;
+}

@@ -1,0 +1,8 @@
+.profileSectionItem a{
+    text-decoration: none;
+}
+.profileSectionItem a:hover {
+    color: #424242 !important;
+    cursor: pointer;
+    font-weight: bold;
+}

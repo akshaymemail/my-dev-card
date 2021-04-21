@@ -1,0 +1,7 @@
+.space {
+    border: 5px dotted #198754;
+    border-bottom: none;
+    width: 50px;
+    margin: 50px auto;
+    background:none;
+}

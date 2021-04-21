@@ -1,0 +1,10 @@
+.card{
+    opacity: .8;
+}
+.card:hover{
+    opacity: 1;
+}
+
+#project {
+    margin: 1em auto;
+}

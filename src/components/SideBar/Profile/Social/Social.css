@@ -1,0 +1,7 @@
+#social a{
+    font-size: 2em;
+    margin: auto .2em;
+}
+#social i:hover{
+    color: #E4E9FD;
+}

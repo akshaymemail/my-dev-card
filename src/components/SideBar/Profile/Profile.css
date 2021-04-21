@@ -1,0 +1,9 @@
+#profile * {
+    color: #f1f1f1;
+    text-align: center;
+    margin: .5em auto;
+}
+
+#profile hr{
+    color: #424242;
+}

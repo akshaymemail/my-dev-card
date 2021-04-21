@@ -1,0 +1,10 @@
+#darkMode * {
+    text-align: center;
+}
+#darkMode input{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    margin-left: 50px;
+    cursor:pointer
+}

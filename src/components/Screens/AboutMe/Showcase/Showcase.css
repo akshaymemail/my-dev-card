@@ -1,0 +1,7 @@
+#showcase{
+    margin: 2em auto;
+}
+
+#showcase .small-img{
+    max-width: 350px;
+}
