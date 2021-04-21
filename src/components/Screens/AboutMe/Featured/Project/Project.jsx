@@ -11,7 +11,7 @@ const Project = ({name, image, description, url, github}) => {
             <div className="card m-1 p-1">
                 <div className="row">
                     <div className="col-6">
-                        <img src={image} alt={name} className="img-fluid"/>
+                        <img src={process.env.PUBLIC_URL+image} alt={name} className="img-fluid"/>
                     </div>
                     <div className="col-6">
                         <h4>{name}</h4>
