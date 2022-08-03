@@ -19,7 +19,6 @@ jobs:
         with:
           source: "."
           target: "/var/www/akshayme.in"
-          script: sudo mkdir /var/www/akshayme.in
 
       - name: Executing remote command
         uses: appleboy/ssh-action@master
