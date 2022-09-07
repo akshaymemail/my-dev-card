@@ -18,7 +18,7 @@ const Section = () => {
                 <Link to='/contact' > <i className="fas fa-id-card"></i> Contact</Link>
             </div>
             <div className="profileSectionItem">
-                <a href='https://github.com/akshaymemail/my-dev-card' target='_blank' rel='noreferrer' > <i className="fab fa-github"></i> GitHub</a>
+                <a href='https://github.com/akshaymemail/MyDevCard' target='_blank' rel='noreferrer' > <i className="fab fa-github"></i> GitHub</a>
             </div>
             <button className='btn btn-dark'><i className="fas fa-paper-plane"></i> Hire Me !</button>
         </div>
