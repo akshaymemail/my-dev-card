@@ -1,0 +1,3 @@
+# https://www.akshaymemail.in/robots.txt
+User-agent: *
+Disallow:
